@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+html { 
+    background: url(https://www.iddigital.com.au/img/iddigital.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.absolute {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.img {
+    background-image: url(logowhite.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.encabezado-item {
+    height: 39px;
+}
+.manto {
+    width: 100%;
+    min-height: 100%;
+}
